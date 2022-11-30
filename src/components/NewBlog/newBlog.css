@@ -1,0 +1,32 @@
+h1{
+    color: darkorange;
+    text-align: center;
+}
+.rest{
+    padding: 10px;
+    border-radius:5px;
+    border:1px solid rgb(0, 255, 242);
+    margin-right: 10px;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 600;
+}
+.flex{
+    display: flex;
+}
+.NewBlogtitle{
+    flex-grow: 2;
+}
+.NewBlogsubTitle{
+    flex-grow: 4;
+}
+.addbutton{
+    
+    border-radius:5px;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 5px 5px;
+    background:  darkorange;
+    color: white;
+    flex-grow: 1;
+}
